@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json">
+  <meta name=”theme-color” content=”black” />
+  <title>Light-bundle</title>
+</head>
+
+<body>
+  <style>
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background: #4a556d;
+      color: #f6f6f6;
+      overflow: hidden
+    }
+
+    .wr {
+      display: grid;
+      grid-template-rows: 3.125rem 1fr 3.125rem;
+      grid-gap: .5rem;
+      padding: .5rem;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      background: url(/img/gif.gif) no-repeat ;
+      background-size: 100% 100%;
+    }
+
+    main {
+      display: flex;
+      justify-content: end
+    }
+
+    footer,
+    header {
+      display: flex;
+      justify-content: space-between
+    }
+
+    .c {
+      width: 10.375rem;
+      height: 3rem;
+      border-radius: 5px;
+      animation: s 1.3s infinite ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: space-around
+    }
+
+    .sm {
+      width: 3rem;
+      margin: 0 .5rem .5rem 0
+    }
+
+    .h {
+      height: 18.75rem
+    }
+
+    .w {
+      width: 16.875rem
+    }
+
+    .m {
+      margin: 0 0 .5rem 0
+    }
+
+    .b {
+      animation: s 1.3s infinite ease-in-out;
+      height: calc(100% - 1rem - 3rem);
+      border-radius: 5px;
+      overflow: hidden
+    }
+
+    .wb {
+      width: 5.5rem;
+      margin: 0 6.25rem 0 0
+    }
+
+    @keyframes s {
+      0% {
+        background-position: -40vw;
+        background: #eee
+      }
+
+      50% {
+        background: #ccc
+      }
+
+      100% {
+        background-position: 40vw;
+        background: #eee
+      }
+    }
+
+    .s {
+      animation-duration: 1.3s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear
+    }
+
+    .i {
+      padding: .5rem;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between
+    }
+
+    .f {
+      width: 70%
+    }
+
+    .x {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 5px
+    }
+
+    .n {
+      width: 40%
+    }
+
+    .t {
+      width: 80%
+    }
+
+    .n,
+    .t {
+      margin-top: 10px;
+      height: 8px
+    }
+
+    .n,
+    .t,
+    .x {
+      animation-name: l;
+      animation-duration: 1.8s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
+      background: linear-gradient(90deg, #d7d7dd 0, #c2c3c6 50%, #d7d7dd 100%);
+      background-size: 200% 100%;
+      background-position: 200% 0
+    }
+
+    @keyframes l {
+      0% {
+        background-position: 200% 0
+      }
+
+      100% {
+        background-position: 0 0
+      }
+    }
+  </style>
+  <div class="wr">
+    <header class="m">
+      <div class="c s">
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+      </div>
+      <div class="c s"></div>
+      <div class="c s">
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+      </div>
+    </header>
+    <main>
+      <nav>
+        <div class="c s sm"></div>
+        <div class="c s sm h"></div>
+      </nav>
+      <section>
+        <div class="c s w m"></div>
+        <div class="s w b">
+          <div class="i">
+            <div class="x"></div>
+            <div class="f">
+              <div class="n"></div>
+              <div class="t"></div>
+            </div>
+          </div>
+          <div class="i">
+            <div class="x"></div>
+            <div class="f">
+              <div class="n"></div>
+              <div class="t"></div>
+            </div>
+          </div>
+          <div class="i">
+            <div class="x"></div>
+            <div class="f">
+              <div class="n"></div>
+              <div class="t"></div>
+            </div>
+          </div>
+          <div class="i">
+            <div class="x"></div>
+            <div class="f">
+              <div class="n"></div>
+              <div class="t"></div>
+            </div>
+          </div>
+          <div class="i">
+            <div class="x"></div>
+            <div class="f">
+              <div class="n"></div>
+              <div class="t"></div>
+            </div>
+          </div>
+          <div class="i">
+            <div class="x"></div>
+            <div class="f">
+              <div class="n"></div>
+              <div class="t"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="c s wb">
+        <div class="x"></div>
+        <div class="x"></div>
+      </div>
+      <div class="c s">
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+      </div>
+      <div class="c s">
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+        <div class="x"></div>
+      </div>
+      <div class="c s wb">
+        <div class="x"></div>
+        <div class="x"></div>
+      </div>
+      <div class="c s"></div>
+    </footer>
+  </div>
+  <script src="./appPwa.js"></script>
+</body>
+
+</html>
