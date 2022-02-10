@@ -1,4 +1,6 @@
-console.log(  document.querySelector('head').appendChild(document.createElement('link')).href = '/style.css')
+// const style = document.querySelector('head').appendChild(document.createElement('link'))
+//   style.rel="stylesheet"
+//   style.href = '/style.css'
 window.addEventListener('load',
   () =>
   {   
